@@ -1,0 +1,19 @@
+#Ödev 1
+days={
+    1:"Pazartesi",
+    2:"Salı",
+    3:"Çarşamba",
+    4:"Perşembe",
+    5:"Cuma",
+    6:"Cumartesi",
+    7:"Pazar"
+}
+offday1=int(input("Haftanın ilk görüşme gününü giriniz:"))
+del days[offday1]
+offday2=int(input("Haftanın ikinci görüşme gününü giriniz:"))
+del days[offday2]
+
+print("Bağımsız çalışma günleriniz aşağıdadır",'\n', list(days.values()))
+
+
+
