@@ -1,0 +1,16 @@
+#Ödev 1
+gelir=1000*pow(1.12,7)
+print(gelir)
+
+#Ödev 2
+investment=float(input("Yatırım:"))
+daily_return=float(input("Günlük yüzdelik getiri:"))
+effective_date=int(input("Valör:"))
+profit=investment*pow(daily_return/100+1,effective_date)-investment
+print("""%d gün önce %.2f$ tutatında bitcoin aldığımızda, günde ortalama
+%.2f kazanç ile %.1f karınız olur"""% (effective_date, investment,daily_return,profit))
+
+#Ödev 3
+file_name=str(input("Dosya adını giriniz:"))
+create_py=str(file_name+".py")
+print(create_py)
